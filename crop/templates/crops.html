@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crops - CropCast Predictor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+
+<custom-header></custom-header>
+
+<div class="container mx-auto px-4 py-12">
+
+    <h1 class="text-4xl font-bold text-primary mb-10 text-center">Supported Crops</h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Reusable crop card -->
+        <!-- WHEAT -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+            <img src="/static/images/wheat.jpg" class="w-full h-48 object-cover" alt="Wheat">
+            <div class="p-6">
+                <h2 class="text-xl font-semibold">Wheat</h2>
+                <p class="text-gray-600 mt-2">Best grown in loamy soil and moderate climate.</p>
+                <p class="mt-2 text-sm text-gray-500"><strong>Avg Yield:</strong> 3,000–4,500 kg/ha</p>
+            </div>
+        </div>
+
+        <!-- Rice -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+            <img src="/static/images/rice.jpg" class="w-full h-48 object-cover" alt="Rice">
+            <div class="p-6">
+                <h2 class="text-xl font-semibold">Rice</h2>
+                <p class="text-gray-600 mt-2">Thrives in wet climates with high rainfall.</p>
+                <p class="mt-2 text-sm text-gray-500"><strong>Avg Yield:</strong> 4,000–6,000 kg/ha</p>
+            </div>
+        </div>
+
+        <!-- Corn -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+            <img src="/static/images/corn.jpg" class="w-full h-48 object-cover" alt="Corn">
+            <div class="p-6">
+                <h2 class="text-xl font-semibold">Corn</h2>
+                <p class="text-gray-600 mt-2">Grows well in fertile, well-drained soil.</p>
+                <p class="mt-2 text-sm text-gray-500"><strong>Avg Yield:</strong> 5,000–7,500 kg/ha</p>
+            </div>
+        </div>
+
+        <!-- Soybean -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+            <img src="/static/images/soybean.jpg" class="w-full h-48 object-cover" alt="Soybean">
+            <div class="p-6">
+                <h2 class="text-xl font-semibold">Soybean</h2>
+                <p class="text-gray-600 mt-2">Ideal for warm climates and well-drained soil.</p>
+                <p class="mt-2 text-sm text-gray-500"><strong>Avg Yield:</strong> 2,000–3,200 kg/ha</p>
+            </div>
+        </div>
+
+        <!-- Potato -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+            <img src="/static/images/potato.jpg" class="w-full h-48 object-cover" alt="Potato">
+            <div class="p-6">
+                <h2 class="text-xl font-semibold">Potato</h2>
+                <p class="text-gray-600 mt-2">Thrives in cool climates and loamy soil.</p>
+                <p class="mt-2 text-sm text-gray-500"><strong>Avg Yield:</strong> 30,000–40,000 kg/ha</p>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<custom-footer></custom-footer>
+
+<script src="/components/header.js"></script>
+<script src="/components/mobile-menu.js"></script>
+<script src="/components/footer.js"></script>
+
+</body>
+</html>
